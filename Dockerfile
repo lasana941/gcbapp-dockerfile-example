@@ -13,5 +13,6 @@
 # limitations under the License.
 
 FROM alpine
+RUN chmod 777 helloworld.sh
 COPY helloworld.sh /
 CMD ["/helloworld.sh"]
