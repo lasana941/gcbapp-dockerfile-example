@@ -16,4 +16,5 @@
 FROM alpine
 COPY helloworld.sh /
 RUN chmod +x /helloworld.sh
+EXPOSE 8080
 CMD ["/helloworld.sh"]
