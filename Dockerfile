@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM alpine
-COPY helloworld.sh /
-CMD ["/helloworld.sh"]
+RUN apt-get install python3
+CMD echo "Hello world"
+ENTRYPOINT echo "Hello world"
