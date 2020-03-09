@@ -13,6 +13,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-RUN apt-get install python3
-CMD echo "Hello world"
-ENTRYPOINT echo "Hello world"
+echo "Hello, world!"
+echo "The time is $(date)."
