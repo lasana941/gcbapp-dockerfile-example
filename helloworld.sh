@@ -13,4 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PORT="${PORT:-8080}"
+echo "Listening on ${PORT}..."
 echo "Hello, world!"
