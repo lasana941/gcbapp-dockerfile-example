@@ -14,6 +14,6 @@
 # limitations under the License.
 
 FROM alpine
-RUN chmod +x /helloworld.sh
 COPY helloworld.sh /
-ENTRYPOINT ["./helloworld.sh"]
+RUN chmod +x /helloworld.sh
+CMD ["./helloworld.sh"]
